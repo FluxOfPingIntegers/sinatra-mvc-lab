@@ -2,10 +2,6 @@ require 'pry'
 class PigLatinizer
   attr_reader :text, :output
 
-  def initialize
-    self.piglatinize(@text)
-  end
-
   def piglatinize(text)
     @text = text
     string_hash = {}
